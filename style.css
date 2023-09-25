@@ -1,0 +1,522 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins','Playfair Display', serif;
+    background-color: #2e2e2e;
+    /* background-color: #0b0039; */
+    scroll-behavior: smooth;
+
+}
+
+.flex {
+    display: flex;
+}
+
+:root {
+    --primary-text-color : #ffffff;
+    /* --secondary-text-color: #47406c; */
+    --secondary-text-color: #00ff30;
+}
+
+
+h1:hover {
+    color: var(--primary-text-color)!important;
+}
+
+p {
+    color: var(--primary-text-color)!important;
+}
+
+
+/* Actual website starts form here */
+
+
+
+.nav-content img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20%;
+ }
+ 
+
+/* .bismillah h1 {
+    font-family: 'Qahiri', sans-serif;
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: 0.6s;
+} */
+
+.nav-content{
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+    color:var(--primary-text-color);
+
+}
+
+.a1 {
+    color: var(--secondary-text-color);
+}
+
+
+.a1:visited{
+    color: var(--secondary-text-color);
+}
+
+
+
+.a:hover {
+    color: var(--secondary-text-color);
+}
+
+.nav-content a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 400;
+    letter-spacing: 0.15ch;
+    transition: 0.6s;
+}
+
+
+
+
+.navbar {  
+    height: 90px;
+    width: 100%;
+
+}
+
+
+
+.wrapper {
+    
+    max-width: 1180px;
+    margin-inline: auto;
+    justify-content: center;
+}
+
+
+
+
+
+/* quote front page starts form here */
+
+
+
+.quotefront {
+    height: 100vh;
+    /* background-color: var(--secondary-text-color); */
+    background-size: cover;
+    margin-inline: auto;
+
+}
+
+.quotefront h1 {
+    text-align: center;
+    color: var(--primary-text-color);
+    font-size: 4rem;
+    overflow: hidden;
+    padding: 20% 5%;
+    line-height: 75px;
+    transition: 0.6s;
+
+}
+.quotefront h1 {
+    text-align: center;
+    color: var(--secondary-text-color);
+    font-size: 4rem;
+    overflow: hidden;
+    padding: 20% 5%;
+    line-height: 75px;
+    transition: 0.6s;
+
+}
+
+.quotefront h1:hover {
+    color: var(--primary-text-color)!important;
+    font-size: 6.5rem;
+    line-height: 110px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 7% 5%;
+    padding-bottom: 20%!important;
+
+}
+
+
+
+.quotefront p {
+    text-align: center;
+    color: var(--primary-text-color);
+    font-size: 1rem;
+    margin-top: -20%;
+}
+
+.quotefront i {
+    font-size: 35rem;
+    position: absolute;
+    color: var(--primary-text-color);
+    opacity: 10%;
+    padding-top: 75px;
+}
+
+
+/* Hero section starts from here  */
+
+
+.heropage {
+    height: 100vh;
+    /* background-color: var(--accent-color-dark); */
+    margin-inline: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.leftside {
+    height: 100vh;
+    /* background-color: aquamarine; */
+    width: 47%;
+   
+}
+
+.leftside h1 {
+    margin-left: 0;
+    font-size: 5rem;
+    line-height: 4.5rem;
+    padding-top: 200px;
+    letter-spacing: 0.25px;
+    color: var(--secondary-text-color);
+    transition: 0.5s;
+}
+
+.rightside {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-bottom: 10%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+    width: 47%;
+}
+
+.leftside p {
+    color: var(--secondary-text-color);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 3%;
+    padding-left: 5px;
+    transition: 0.8s;
+}
+
+.leftside p:hover {
+    color: var(--primary-text-color);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 4%;
+    padding-left: 5px;
+}
+
+.socials {
+    /* background-color: #cfc13d; */
+    margin-top: 150px;
+}
+.socials a {
+    color: #2e2e2e;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+    transition: 0.6s;
+    background-color: var(--primary-text-color);
+    width: 200px;
+    height: 50px;
+    gap: 5px;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    align-items: center;
+
+}
+.linkedin:hover {
+    letter-spacing: 2px;
+    
+
+}
+.gitrepo:hover {
+    letter-spacing: 2px;
+    
+
+}
+
+
+
+
+
+.circle {
+    height: 500px;
+    width: 500px;
+    border-radius: 30%;
+    /* background-color: red; */
+    /* background-image: url() ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s ;
+    overflow: hidden;
+    margin-bottom: 15%;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+
+.circle img:hover {
+    opacity: 0%;
+}
+.circle:hover {
+    height: 500px;
+    width: 500px;
+    border-radius: 35%;
+    /* background-color: red; */
+    background-image: url(/images/1684171741474.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+
+/* page two starts form here */
+
+
+
+.page2content {
+    /* background-color: #fff386; */
+    height: 100vh;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    justify-content: center;
+    align-items: center;
+}
+
+.page2content img {
+    /* background-color: red; */
+    transition: 0.6s;
+    width: 600px;
+    height: 600px;
+    padding-right: 50px;
+}
+
+
+.page2content p {
+    text-align: justify;
+    color: var(--secondary-text-color);
+    font-size: 1.25rem;
+    font-weight: 400;
+    transition: 0.8s;
+}
+
+
+.page2content span {
+    color: var(--secondary-text-color);
+}
+
+.page2content span:hover {
+    color: var(--primary-text-color);
+}
+
+
+
+
+
+/* page 3 starts form here */
+
+
+.page3 {
+  /* background-color: #fff386; */
+  height: 100vh;
+  padding-top: 10%;
+}
+
+.iconsofskills {
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.skillswala h1 {
+    font-size: 11rem;
+    color: var(--secondary-text-color);
+    transition: 0.6s;
+    
+}
+
+.skills {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills p {
+    font-size: 100px;
+    color: var(--primary-text-color);
+    margin-right: 40px;
+    transition: 0.6s;
+
+}
+
+.skills p:hover {
+    color: var(--secondary-text-color) !important;
+    font-size: 130px;
+
+}
+
+.iconsofskills span {
+    color: var(--primary-text-color);
+    transition: 0.6s;
+}
+
+.iconsofskills span:hover {
+    color: var(--secondary-text-color);
+}
+
+
+
+
+/* page4 starts form here */
+
+.page4 {
+    /* background-color: #fff386; */
+    height: 70vh;
+  }
+  
+  .iconsoftools {
+      margin-inline: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 50px;
+  }
+  
+  .toolswala h1 {
+      font-size: 11rem;
+      color: var(--secondary-text-color);
+      transition: 0.6s;
+      text-align: center;
+      
+  }
+  
+  .skills {
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  
+  .toolswala span {
+      color: var(--primary-text-color);
+      transition: 0.6s;
+  }
+  
+  .toolswala span:hover {
+      color: var(--secondary-text-color);
+  }
+
+.toolsicons {
+    gap: 100px;
+    align-items: center;
+    padding-top: 25px;
+
+}
+
+.toolsicons img {
+    width: 100px;
+    transition: 0.6s;
+
+}
+
+.toolsicons img:hover {
+    width: 150px;
+
+}
+
+.figmawidth {
+    width: 70px;
+}
+
+.rectangle p {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #ffffff!important;
+    font-weight: 500;
+    width: 1000px;
+}
+
+
+
+ /* footer starts from here */
+
+
+ .footer {
+    margin-top: 10%;
+    height: 20vh;
+    width: 100%;
+ }
+.footer span {
+    font-weight: 700;
+}
+.footer p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--primary-text-color)!important;
+ } 
+
+ .footersocials {
+
+    align-items: center;
+    justify-content: center;
+    transition: 0.9s;
+ }
+
+
+ .footersocials a {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: var(--secondary-text-color);
+    transition: 0.6s;
+ }
+
+ .footersocials a:hover {
+    color: var(--primary-text-color);
+    font-size: 1.7rem;
+
+ }
+
+
+
+
+
+
+ /* responsive design */
