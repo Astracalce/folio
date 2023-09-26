@@ -486,6 +486,11 @@ p {
 .footer span {
     font-weight: 700;
 }
+
+.footer span:hover {
+    color:var(--secondary-text-color);
+}
+
 .footer p{
     text-align: center;
     font-size: 1.2rem;
