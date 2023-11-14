@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+
+
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+}
+
+html body {
+   height: 100vh;
+   width: 100%;
+   font-family: 'Poppins','Playfair Display', serif;
+   background-color: #2e2e2e;
+   /* background-color: #0b0039; */
+   scroll-behavior: smooth;
+}
+
+.flex {
+   display: flex;
+   justify-content: center;
+}
+
+:root {
+   --primary-text-color : #ffffff;
+   --secondary-text-color: #00ff30;
+}
+
+
+h1:hover {
+   color: var(--primary-text-color);
+}
+
+p {
+   color: var(--primary-text-color);
+}
+
+.wrapper {
+    max-width: 1180px;
+    margin-inline: auto;
+} 
+
+.a1:visited {
+   color: var(--secondary-text-color);
+}
+
+.a:hover {
+   color: var(--secondary-text-color);
+}
+/* desiged for page starts from here  */
+
+.designedfor {
+   height: 100vh;
+   
+}
+.designedfor h1 {
+   font-size: 10rem !important;
+   text-align: center;
+   color: var(--secondary-text-color);
+   margin-top: 100px;
+   transition: 0.6s;
+
+}
+
+.designedfor h1:hover {
+   
+   letter-spacing: 2px;
+
+
+}
+
+.designedfor h4 {
+   font-size: 3rem !important;
+   text-align: center;
+   color: var(--primary-text-color);
+   margin-top: 20px;
+   transition: 0.6s;
+
+}
+
+.designedfor a {
+   text-decoration: none;
+   color: var(--primary-text-color);
+   transition: 0.6s;
+}
+
+.designedfor a:hover {
+  color: var(--secondary-text-color);
+  letter-spacing: 2px;
+   
+}
+
+.designedfor span {
+   color: var(--primary-text-color)
+}
+
+.brandlogos img {
+   height: 100px;
+}
+
+/* Actual website starts form here */
+
+
+.nav-content img {
+   width: 50px;
+   height: 50px;
+   margin-right: 20%;
+}
+
+/* .bismillah h1 {
+   font-family: 'Qahiri', sans-serif;
+   color: var(--secondary-text-color);
+   text-align: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   transition: 0.6s;
+} */
+
+.nav-content{
+   justify-content: center;
+   height: 90px;
+   align-items: center;
+   color:var(--primary-text-color);
+
+}
+
+
+
+.nav-content a {
+   margin-left: 50px;
+   text-decoration: none;
+   color: var(--primary-text-color);
+   font-weight: 400;
+   letter-spacing: 0.15ch;
+   transition: 0.6s;
+}
+
+.navbar a:hover {
+   /* color: var(--secondary-text-color); */
+   font-weight: 600;
+   letter-spacing: 5px;
+
+}
+
+.navbar a:visited {
+   color: var(--secondary-text-color);
+}
+
+
+
+.navbar {  
+   height: 90px;
+   width: 100%;
+
+}
+
+
+
+.wrapper {
+   
+   max-width: 1180px;
+   margin-inline: auto;
+   justify-content: center;
+}
+
+
+        /* heropage begins from here
+ 
+        .quotefront {
+         height: 100vh;
+         /* background-color: var(--secondary-text-color); 
+         background-size: cover;
+         margin-inline: auto;
+     
+     }
+     
+     .quotefront h1 {
+         text-align: center;
+         color: var(--primary-text-color);
+         font-size: 4rem;
+         overflow: hidden;
+         padding: 20% 5%;
+         line-height: 75px;
+         transition: 0.6s;
+     
+     }
+     .quotefront h1 {
+         text-align: center;
+         color: var(--secondary-text-color);
+         font-size: 4rem;
+         overflow: hidden;
+         padding: 20% 5%;
+         line-height: 75px;
+         transition: 0.6s;
+     
+     }
+     
+     .quotefront h1:hover {
+         color: var(--primary-text-color)!important;
+         font-size: 6.5rem;
+         line-height: 110px;
+         margin-top: 50px;
+         margin-bottom: 20px;
+         padding: 7% 5%;
+         padding-bottom: 20%!important;
+     
+     }
+     
+     
+     
+     .quotefront p {
+         text-align: center;
+         color: var(--primary-text-color);
+         font-size: 1rem;
+         margin-top: -20%;
+     }
+     
+     .quotefront i {
+         font-size: 35rem;
+         position: absolute;
+         color: var(--primary-text-color);
+         opacity: 10%;
+         padding-top: 75px;
+     }*/
+
+/* page 1 starts form here */
+
+.posters-page {
+   height: 100vh;
+   margin-inline: auto;
+
+}
+
+.posters-page img {
+   box-shadow: 10px 10px 20px;
+}
+
+
+.posters-page h1 {
+   text-align: center;
+   font-size: 15rem;
+   font-weight: 700;
+   color: var(--primary-text-color);
+   margin-bottom: 250px;
+   margin-top: 100px;
+   transition: 0.6s;
+   
+}
+
+
+.posters-page h1:hover {
+   color: var(--secondary-text-color);
+   letter-spacing: 5px;
+}
+
+.posters-page span:hover {
+   color: var(--primary-text-color);
+   
+}
+
+
+
+.posters-page span {
+   color: var(--secondary-text-color);
+}
+
+.bitcoin img {
+   margin-left: 20px;  
+   width: 350px;
+   border: 2px solid white;
+   transition: 0.4s;
+   
+}
+
+.bitcoin img:hover {
+   width: 380px;   
+}
+
+
+.bitcoin p {
+   height: 350px;
+   padding-right: 200px;
+   text-align: justify;
+   
+}
+
+.posters-page a {
+   text-decoration: none;
+   color: #ffffff;
+   transition: 0.6s;
+}
+
+.posters-page a:hover {
+   /* letter-spacing: 5px; */
+   color: #ffffff;
+}
+
+.request {
+   text-align: center;
+   width: 50%;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: var(--secondary-text-color);
+   color: #ffffff;
+   font-weight: 700;
+   font-size: .85rem;
+   margin-top: -40px;
+   transition: 0.6s;
+}
+
+.request:hover {
+   text-align: center;
+   width: 50%;
+   padding: 10px;
+   background-color: transparent;
+   border: 2px solid var(--primary-text-color);
+   border-radius: 10px;
+   font-weight: 700;
+   font-size: .85rem;
+   margin-top: -40px;
+}
+
+
+/* dal lake wala poster */
+
+.dallakerev {
+   flex-direction: row-reverse;
+}
+
+.dallakerev img {
+   margin-right: 20px;
+}
+
+.dallake {
+   margin-top: 600px ;
+}
+
+.dallakerev p {
+   margin-right: 0;
+   height: 350px;
+   padding-left: 200px !important;
+   text-align: justify;
+   
+}
+
+.dallakerev img {
+   width: 350px;
+   border: 2px solid white;
+   transition: 0.4s;
+   
+}
+
+.dallakerev img:hover {
+   
+   width: 380px;   
+}
+
+.requestright {
+   text-align: center;
+   width: 50%;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: var(--secondary-text-color);
+   color: #ffffff;
+   font-weight: 700;
+   font-size: .85rem;
+   margin-top: -40px;
+   transition: 0.6s;
+   margin-left: 49%;
+}
+
+.requestright:hover {
+   text-align: center;
+   width: 50%;
+   padding: 10px;
+   background-color: transparent;
+   border: 2px solid var(--primary-text-color);
+   border-radius: 10px;
+   font-weight: 700;
+   font-size: .85rem;
+   margin-top: -40px;
+}
+
+
+/* moresmall starts form here */
+
+.moreposters {
+   display: flex;
+
+}
+
+.postersmall img {
+   height: 135px;
+   width: 100px;
+}
+
+/* thumbnails section starts from here */
+
+.thumbnails {
+     height: 100vh;
+     text-align: center;
+     font-size: 1.5rem;
+
+
+}
+
+.thumbnails h2 {
+   color: var(--secondary-text-color);
+   transition: 0.6s;
+   margin-bottom: 20px;
+}
+
+
+.thumbnails h2:hover {
+    color: var(--primary-text-color); 
+    letter-spacing: 2px;
+
+}
+
+.thumbnails span {
+   color: var(--primary-text-color);
+   transition: 0.6s;
+}
+
+.thumbnails span:hover{
+   color: var(--secondary-text-color);
+}
+
+
+/* imagesof thumb starts form here */
+
+.imagesofthumb{
+   justify-content: center;
+}
+
+.imagesofthumb img{
+   box-shadow: 10px 10px 20px;
+   height: 288px;
+   margin: 20px;
+   border: solid  2px var(--primary-text-color);
+   transition: 0.6s;
+}
+
+.imagesofthumb img:hover{
+   box-shadow: 10px 10px 20px;
+   height: 360px;
+   margin: 20px;
+   border: solid  2px var(--primary-text-color);
+}
+
+
+
+/* logos section starts from here  */
+
+
+.wallframes {
+   height: 100vh;
+   text-align: center;
+   color: var(--secondary-text-color);
+   margin-top: 800px;
+   font-size: 1.5rem;
+}
+
+
+.wallframes h2 {
+ color: var(--secondary-text-color);
+ transition: 0.6s;
+ margin-bottom: 20px;
+}
+
+
+.wallframes h2:hover {
+  color: var(--primary-text-color); 
+  letter-spacing: 2px;
+
+}
+
+.wallframes span {
+ color: var(--primary-text-color);
+ transition: 0.6s;
+}
+
+.wallframes span:hover{
+ color: var(--secondary-text-color);
+}
+
+.wallframesimg img {
+   height: 405px;
+   width: 300px;
+   justify-content: center;
+   border: solid 2px var(--primary-text-color);
+   box-shadow: 10px 10px 20px black;
+   margin: 20px;
+   transition: 0.6s;
+
+}
+
+.wallframesimg img:hover {
+   height: 540px;
+   width: 400px;
+  
+}
+
+
+.waitmessage {
+   color: var(--primary-text-color);
+   transition: 1s;
+   margin-top: 100vh;
+   margin-bottom: 30vh;
+   text-align: center;
+   font-size: 20px;
+   letter-spacing: 0.5px;
+  }
+
+  .waitmessage:hover {
+   letter-spacing: 5px;
+  }
+  
