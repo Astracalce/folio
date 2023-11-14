@@ -165,6 +165,19 @@ p {
    justify-content: center;
 }
 
+/* mainpagestarts from here */
+h1 {
+   margin: 10% 0;
+   font-size: 20px;
+   color: #ffffff;
+   font-weight: 500;
+   text-align: center;
+}
+
+h1 span {
+   color: #00ff30;
+}
+
 .logosSection {
    display: flex;
    flex-direction: column;
@@ -250,9 +263,117 @@ hr {
    margin : 25px 250px;
 }
 
+.PostersSection h2 {
+   margin-top: 25px;
+   font-size: 100px;
+   color: #ffffff;
+   font-weight: 800;
+   text-align: center;
+}
 
+.imagesPoster {
+   display: flex;
+   gap: 10px;
+   height: 415px;
+   width: 1220px;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.imagesPoster img {
+   border: #ffffff solid 2px;
+   border-radius: 10px;
+   height: 405px;
+   width: 300px;
+   object-fit: cover;
+}
+
+
+/* 1:1 starts from here */
+
+.parent {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.socialmedia h2 {
+   margin-top: 25px;
+   font-size: 100px;
+   color: #ffffff;
+   font-weight: 800;
+   text-align: center;
+}
+
+.oneistoone {
+   display: flex;
+   justify-content: space-around;
+   gap: 10px;
+   align-items: center;
+   margin-top: 20px;
+
+}
+
+
+.socialmedia img {
+   border-radius: 10px;
+   height: 350px;
+   width: 350px;
+   object-fit: cover;
+}
+
+/* thumbnails start from here */
+
+
+.parentthumb {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 20px;
+
+}
+
+.thumbnails img {
+   margin: 15px 15px;
+   border-radius: 10px;
+   width: 508px;
+   object-fit: cover;
+}
+
+
+.socials {
+   /* background-color: #cfc13d; */
+   margin-top: 150px;
+}
+.socials a {
+   color: #2e2e2e;
+   font-size: 20px;
+   font-weight: 600;
+   margin-right: 30px;
+   transition: 0.6s;
+   background-color: var(--primary-text-color);
+   width: 200px;
+   height: 50px;
+   gap: 5px;
+   justify-content: center;
+   border-radius: 10px;
+   text-decoration: none;
+   align-items: center;
+
+}
+.linkedin:hover {
+   letter-spacing: 2px;
+   
+
+}
+.gitrepo:hover {
+   letter-spacing: 2px;
+   
+
+}
 
 
 .last{
-   height: 100vh;
+   height: 30vh;
 }
